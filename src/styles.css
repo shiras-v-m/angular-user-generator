@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+    margin: 0;
+    padding: 0;
+}
+app-root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@media(max-width:550px){
+    app-root{
+       height: 100vh;
+    }
+}

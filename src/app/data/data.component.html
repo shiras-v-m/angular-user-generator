@@ -1,0 +1,35 @@
+<div class="box" [style]="chooseColor">
+    <div class="leftSection">
+        <img class="userimg" [src]="img" alt="userImg">
+        <h1>{{username}}</h1>
+        <h4>{{gender}}</h4>
+        <div class="details1">
+            <div class="col1">
+                <h5>Birth Date</h5>
+                <h6>{{dob}}</h6>
+            </div>
+          <div class="col2">
+            <h5>Age</h5>
+            <h6>{{age}}</h6>
+          </div>
+    
+        </div>
+        <div class="button">
+            <button (click)="generateUser()">Refresh</button>
+        </div>
+    </div>
+    
+    <div class="rightSection">
+        <h5>Home Address</h5>
+        <h6>{{address}}</h6>
+        <h5>Mobile Phone</h5>
+        <h6>{{mob}}</h6>
+        <h5>Company</h5>
+        <h6>{{company}}</h6>
+        <h5>Job Title</h5>
+        <h6>{{jobTitle}}</h6>
+        <h5>Email</h5>
+        <h6>{{email}}</h6>
+    </div>
+
+</div>
